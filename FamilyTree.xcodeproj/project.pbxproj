@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66C5701F1682183600F1BE24 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66C5701E1682183600F1BE24 /* main.cpp */; };
 		66C570211682183600F1BE24 /* FamilyTree.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66C570201682183600F1BE24 /* FamilyTree.1 */; };
+		66E9E80C168A422300131C17 /* 040090680.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E9E80B168A422300131C17 /* 040090680.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		66C5701A1682183600F1BE24 /* FamilyTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FamilyTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		66C5701E1682183600F1BE24 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		66C570201682183600F1BE24 /* FamilyTree.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FamilyTree.1; sourceTree = "<group>"; };
+		66E9E80A168A403B00131C17 /* family.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = family.txt; sourceTree = "<group>"; };
+		66E9E80B168A422300131C17 /* 040090680.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 040090680.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 		66C5701D1682183600F1BE24 /* FamilyTree */ = {
 			isa = PBXGroup;
 			children = (
-				66C5701E1682183600F1BE24 /* main.cpp */,
+				66E9E80B168A422300131C17 /* 040090680.cpp */,
+				66E9E80A168A403B00131C17 /* family.txt */,
 				66C570201682183600F1BE24 /* FamilyTree.1 */,
 			);
 			path = FamilyTree;
@@ -117,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66C5701F1682183600F1BE24 /* main.cpp in Sources */,
+				66E9E80C168A422300131C17 /* 040090680.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +210,7 @@
 				66C570261682183600F1BE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
